@@ -72,7 +72,7 @@ function download_crd_bundle {
   local bundle_file="bundle.yaml"
   log_debug "[url] Bundle file: ${url}"
   if ! curl --silent --retry-all-errors --fail --location "${url}" >"${crd_dir}/${bundle_file}"; then
-    echo_fail -e "Failed to download ${url}"
+    log_error "Failed to download ${url}"
   else
     [ -f "${crd_dir}/${bundle_file}}" ] && log_error "Bundle file not exists" && exit 1
     kubectl slice -q -f "${crd_dir}/${bundle_file}" -t "{{.metadata.name}}.yaml" -o "${crd_dir}"

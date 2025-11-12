@@ -22,8 +22,8 @@ export FILES=(
 )
 
 # renovate: datasource=github-tags depName=external-secrets/external-secrets
-export VERSION=0.20.3
+export VERSION=v1.0.0
 
 function generate_url {
-  echo "https://raw.githubusercontent.com/external-secrets/external-secrets/v${VERSION}/deploy/crds/bundle.yaml"
+  echo "https://raw.githubusercontent.com/external-secrets/external-secrets/${VERSION}/deploy/crds/bundle.yaml"
 }
