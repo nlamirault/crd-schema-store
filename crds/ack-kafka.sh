@@ -13,7 +13,7 @@ export FILES=(
 )
 
 # renovate: datasource=github-tags depName=aws-controllers-k8s/kafka-controller
-export VERSION=1.2.1
+export VERSION=1.2.2
 
 function generate_url {
   local crd_file=$1
