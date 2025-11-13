@@ -5,7 +5,6 @@
 
 export choice=individual
 export FILES=(
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
   "sqs.services.k8s.aws_queues.yaml"
 )

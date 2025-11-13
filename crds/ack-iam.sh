@@ -12,7 +12,6 @@ export FILES=(
   "iam.services.k8s.aws_roles.yaml"
   "iam.services.k8s.aws_servicelinkedroles.yaml"
   "iam.services.k8s.aws_users.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

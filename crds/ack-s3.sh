@@ -6,7 +6,6 @@
 export choice=individual
 export FILES=(
   "s3.services.k8s.aws_buckets.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

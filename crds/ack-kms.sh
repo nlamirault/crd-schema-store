@@ -8,7 +8,6 @@ export FILES=(
   "kms.services.k8s.aws_aliases.yaml"
   "kms.services.k8s.aws_grants.yaml"
   "kms.services.k8s.aws_keys.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

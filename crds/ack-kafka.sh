@@ -8,7 +8,6 @@ export FILES=(
   "kafka.services.k8s.aws_clusters.yaml"
   "kafka.services.k8s.aws_configurations.yaml"
   "kafka.services.k8s.aws_serverlessclusters.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

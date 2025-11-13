@@ -15,7 +15,6 @@ export FILES=(
   "rds.services.k8s.aws_dbsnapshots.yaml"
   "rds.services.k8s.aws_dbsubnetgroups.yaml"
   "rds.services.k8s.aws_globalclusters.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 
