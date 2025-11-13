@@ -20,7 +20,7 @@ export FILES=(
 )
 
 # renovate: datasource=github-tags depName=aws-controllers-k8s/rds-controller
-export VERSION=1.6.2
+export VERSION=1.6.3
 
 function generate_url {
   local crd_file=$1
