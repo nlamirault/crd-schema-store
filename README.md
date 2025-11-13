@@ -51,6 +51,7 @@ A collection of JSON schemas extracted from Kubernetes Custom Resource Definitio
 - **Grafana Operator** - Grafana instance management
 - **OpenTelemetry Operator** - OpenTelemetry instrumentation and data collection
 - **Prometheus Operator** - Monitoring and alerting
+- **OpenReports** - Standardized reports (findings, policy results, etc.)
 
 ### Security & Secrets
 
