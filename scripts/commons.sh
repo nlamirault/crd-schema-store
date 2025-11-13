@@ -39,8 +39,6 @@ function generate_json_schema {
   local crd_file=$1
   local json_dir=$2
 
-  echo yq e '.spec.group' "${crd_file}"
-
   log_debug "[io] Generate output filename from ${crd_file}"
   output_file=$(generate_output_filename "${crd_file}")
   group=$(dirname "${output_file}")
@@ -88,9 +86,8 @@ function download_crd_kustomize {
   log_debug "[url] Kustomize: ${url}"
   kustomize build "${url}" >"${crd_dir}/${bundle_file}"
   [ -f "${crd_dir}/${bundle_file}}" ] && log_error "Bundle file not exists" && exit 1
-  kubectl slice -f "${crd_dir}/${bundle_file}" -t "{{.metadata.name}}.yaml" -o "${crd_dir}"
-  ls -alFrt "${crd_dir}"
-  # rm "${crd_dir}/${bundle_file}"
+  kubectl slice -q -f "${crd_dir}/${bundle_file}" -t "{{.metadata.name}}.yaml" -o "${crd_dir}"
+  rm "${crd_dir}/${bundle_file}"
 }
 
 function manage_crd {

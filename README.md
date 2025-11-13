@@ -61,6 +61,10 @@ A collection of JSON schemas extracted from Kubernetes Custom Resource Definitio
 - **Gateway API** - Next-generation ingress and traffic management
 - **Istio** - Service mesh for secure, fast, and reliable service-to-service communication
 
+### Feature Management & Configuration
+
+- **Open Feature Operator** - Standardizing Feature Flagging
+
 ## Schema Organization
 
 Schemas are organized by API group and follow the naming convention:
