@@ -141,7 +141,10 @@ curl -s https://raw.githubusercontent.com/nlamirault/crd-schema-store/main/schem
 ```bash
 #!/usr/bin/env bash
 
-export choice=individual  # 'individual' for separate files, 'bundle' for single file, 'kustomize' for kustomize directory
+# 'individual' for separate files
+# 'bundle' for single file,
+# 'kustomize' for kustomize directory
+export choice=individual
 export FILES=(
   "crd-file1.yaml"
   "crd-file2.yaml"
@@ -165,25 +168,18 @@ make build APP=your-app-name
 ### Project Structure
 
 ```
-├── crds/                    # CRD download scripts
-├── schemas/                 # Generated JSON schemas (organized by API group)
+├── crds/                   # CRD download scripts
+├── schemas/                # Generated JSON schemas (organized by API group)
 ├── scripts/
 │   ├── commons.sh          # Common utility functions
 │   └── schema-store.sh     # Main schema generation script
 ├── Makefile                # Build automation
-└── README.md              # This file
+└── README.md               # This file
 ```
-
-### How It Works
-
-1. **Download**: CRD scripts download the latest Custom Resource Definitions from upstream repositories
-2. **Extract**: The `yq` tool extracts the `openAPIV3Schema` from each CRD
-3. **Convert**: Schemas are converted to JSON format and organized by API group
-4. **Cleanup**: Temporary files are removed after processing
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ## License
 
