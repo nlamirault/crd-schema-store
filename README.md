@@ -61,6 +61,8 @@ A collection of JSON schemas extracted from Kubernetes Custom Resource Definitio
 
 - **Gateway API** - Next-generation ingress and traffic management
 - **Istio** - Service mesh for secure, fast, and reliable service-to-service communication
+- **KGateway** - Envoy-based API gateway for Kubernetes
+- **Envoy Gateway** - Envoy Proxy as a Kubernetes API Gateway
 
 ### Feature Management & Configuration
 
