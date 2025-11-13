@@ -52,5 +52,4 @@ init: ## Initialize environment
 
 .PHONY: build
 build: guard-APP ## Update CRD for an application
-	# @crds/${APP}.sh
 	@scripts/schema-store.sh "${APP}"
