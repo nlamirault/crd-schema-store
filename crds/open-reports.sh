@@ -9,7 +9,7 @@ export FILES=(
   "openreports.io_reports.yaml"
 )
 
-# renovate: datasource=github-tags depName=argoproj/argo-cd
+# renovate: datasource=github-tags depName=openreports/reports-api
 export VERSION=0.2.1
 
 function generate_url {

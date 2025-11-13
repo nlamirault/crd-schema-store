@@ -17,7 +17,7 @@ export FILES=(
   "inprocessconfigurations.core.openfeature.dev.yaml"
 )
 
-# renovate: datasource=github-tags depName=open-telemetry/opentelemetry-operator
+# renovate: datasource=github-tags depName=open-feature/open-feature-operator
 export VERSION=0.8.8
 
 function generate_url {
