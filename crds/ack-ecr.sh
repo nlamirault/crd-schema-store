@@ -7,7 +7,6 @@ export choice=individual
 export FILES=(
   "ecr.services.k8s.aws_pullthroughcacherules.yaml"
   "ecr.services.k8s.aws_repositories.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

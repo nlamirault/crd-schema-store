@@ -8,7 +8,6 @@ export FILES=(
   "dynamodb.services.k8s.aws_backups.yaml"
   "dynamodb.services.k8s.aws_globaltables.yaml"
   "dynamodb.services.k8s.aws_tables.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

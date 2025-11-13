@@ -9,7 +9,6 @@ export FILES=(
   "eventbridge.services.k8s.aws_endpoints.yaml"
   "eventbridge.services.k8s.aws_eventbuses.yaml"
   "eventbridge.services.k8s.aws_rules.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

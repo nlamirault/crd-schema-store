@@ -23,7 +23,6 @@ export FILES=(
   "ec2.services.k8s.aws_vpcendpointserviceconfigurations.yaml"
   "ec2.services.k8s.aws_vpcpeeringconnections.yaml"
   "ec2.services.k8s.aws_vpcs.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

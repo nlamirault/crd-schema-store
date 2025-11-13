@@ -6,7 +6,6 @@
 export choice=individual
 export FILES=(
   "secretsmanager.services.k8s.aws_secrets.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

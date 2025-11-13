@@ -6,7 +6,6 @@
 export choice=individual
 export FILES=(
   "bedrockagent.services.k8s.aws_agents.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

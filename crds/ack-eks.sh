@@ -12,7 +12,6 @@ export FILES=(
   "eks.services.k8s.aws_identityproviderconfigs.yaml"
   "eks.services.k8s.aws_nodegroups.yaml"
   "eks.services.k8s.aws_podidentityassociations.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 

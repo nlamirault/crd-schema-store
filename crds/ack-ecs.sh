@@ -8,7 +8,6 @@ export FILES=(
   "ecs.services.k8s.aws_clusters.yaml"
   "ecs.services.k8s.aws_services.yaml"
   "ecs.services.k8s.aws_taskdefinitions.yaml"
-  "services.k8s.aws_adoptedresources.yaml"
   "services.k8s.aws_fieldexports.yaml"
 )
 
