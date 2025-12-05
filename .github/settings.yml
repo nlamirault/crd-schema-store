@@ -6,7 +6,7 @@
 repository:
   name: crd-schema-store
   description: JSON Schema for Kubernetes CRDs
-  homepage: https://github.com/nlamirault/crd-json-schema
+  homepage: https://github.com/nlamirault/crd-schema-store
   topics: kubernetes, json-schema, crds
   private: false
   has_issues: true
